@@ -56,7 +56,7 @@ Definido em `menu.h`:
 
 ### Diagrama de ligação do Joystick
 
-RP2350                Joystick<br>
+RP2350                        Joystick<br>
 ───────               ─────────<br>
 GP3  ────────────────► UP<br>
 GP2  ────────────────► DOWN<br>
