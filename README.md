@@ -45,14 +45,14 @@ Este documento descreve todas as conexões elétricas extraídas do código-font
 
 Definido em `menu.h`:
 
-| Botão       | GPIO    | Configuração no código     |
-|-------------|---------|----------------------------|
-| **UP**      | **GP3** | `INPUT_PULLUP`             |
-| **DOWN**    | **GP2** | `INPUT_PULLUP`             |
-| **LEFT**    | **GP6** | `INPUT_PULLUP`             |
-| **RIGHT**   | **GP5** | `INPUT_PULLUP`             |
-| **OK**      | **GP4** | `INPUT_PULLUP`             |
-| **COMMON**  | **GP7** | Ligado ao **GND**          |
+| Botão       | GPIO    | Configuração no código     |<br>
+|-------------|---------|----------------------------|<br>
+| **UP**      | **GP3** | `INPUT_PULLUP`             |<br>
+| **DOWN**    | **GP2** | `INPUT_PULLUP`             |<br>
+| **LEFT**    | **GP6** | `INPUT_PULLUP`             |<br>
+| **RIGHT**   | **GP5** | `INPUT_PULLUP`             |<br>
+| **OK**      | **GP4** | `INPUT_PULLUP`             |<br>
+| **COMMON**  | **GP7** | Ligado ao **GND**          |<br>
 
 ### Diagrama de ligação do Joystick
 
