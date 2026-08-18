@@ -6,5 +6,5 @@ Inclui :
  - Correção do Odometro Total e do Odomentro Parcial
  - To Do : Desenhar o enclosure
    <p align="center">
-  <img src="https://github.com/srspinho/Key_Counter_volume/blob/main/WhatsApp Image 2026-08-18 at 18.28.11.jpeg" width="400">
+  <img src="https://github.com/srspinho/Waveshare_26/blob/main/WhatsApp Image 2026-08-18 at 18.28.11.jpeg" width="400">
   </p>
