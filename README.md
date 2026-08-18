@@ -109,30 +109,29 @@ O código possui proteção cooperativa (`g_flash_pausar_usb` / `g_flash_usb_par
 
 ## Visão Geral do Esquema
 
-┌─────────────────────────────┐
-│   Waveshare RP2350-LCD-1.47 │
-│                             │
-USB-C ───────────┤ USB Device                  │
-│                             │
-Teclado USB ─────┤ GP0 (D+)  / GP1 (D-)        │  ← USB Host (PIO)
-│ GP18 (5V_EN)                │
-│                             │
-Joystick ────────┤ GP2  DOWN                   │
-│ GP3  UP                     │
-│ GP4  OK                     │
-│ GP5  RIGHT                  │
-│ GP6  LEFT                   │
-│ GP7  COMMON → GND           │
-│                             │
-DS3231 ──────────┤ GP26 SDA                    │  ← Wire1 (I2C1)
-│ GP27 SCL                    │
-│ 3V3 / GND                   │
-│                             │
-│ LCD ST7789 (interno)        │
-│   GP16 DC / GP17 CS         │
-│   GP18 SCK / GP19 MOSI      │
-│   GP20 RST / GP21 BL (PWM)  │
-└─────────────────────────────┘
+# Waveshare RP2350-LCD-1.47
+
+| Dispositivo/Componente | Pinos RP2350         | Observações       |
+|-------------------------|---------------------|-------------------|
+| **USB-C**               | USB Device          | Conexão principal |
+| **Teclado USB**          | GP0 (D+), GP1 (D-) | USB Host (PIO)    |
+| **Controle de energia**  | GP18               | 5V_EN             |
+| **Joystick**             | GP2                | DOWN              |
+|                          | GP3                | UP                |
+|                          | GP4                | OK                |
+|                          | GP5                | RIGHT             |
+|                          | GP6                | LEFT              |
+|                          | GP7                | COMMON → GND      |
+| **DS3231 RTC**           | GP26 SDA           | Wire1 (I2C1)      |
+|                          | GP27 SCL           | Wire1 (I2C1)      |
+|                          | 3V3 / GND          | Alimentação       |
+| **LCD ST7789 (interno)** | GP16 DC            | Display Control   |
+|                          | GP17 CS            | Chip Select       |
+|                          | GP18 SCK           | Clock             |
+|                          | GP19 MOSI          | Data              |
+|                          | GP20 RST           | Reset             |
+|                          | GP21 BL (PWM)      | Backlight         |
+
 
 ---
 
