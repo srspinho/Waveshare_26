@@ -148,8 +148,6 @@ O código possui proteção cooperativa (`g_flash_pausar_usb` / `g_flash_usb_par
    ```cpp
    analogWrite(TFT_BL, map(config.sistema_brilho, 0, 100, 0, 255));
 
-   <BR>
 
-   <p align="center">
   <img src="https://github.com/srspinho/Waveshare_26/blob/main/WhatsApp Image 2026-08-18 at 18.28.11.jpeg" width="400">
   </p>
