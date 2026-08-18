@@ -56,14 +56,14 @@ Definido em `menu.h`:
 
 ### Diagrama de ligação do Joystick
 
-RP2350                Joystick
-───────               ─────────
-GP3  ────────────────► UP
-GP2  ────────────────► DOWN
-GP6  ────────────────► LEFT
-GP5  ────────────────► RIGHT
-GP4  ────────────────► OK (centro)
-GP7  ────────────────► COMMON ──► GND
+RP2350                Joystick<br>
+───────               ─────────<br>
+GP3  ────────────────► UP<br>
+GP2  ────────────────► DOWN<br>
+GP6  ────────────────► LEFT<br>
+GP5  ────────────────► RIGHT<br>
+GP4  ────────────────► OK (centro)<br>
+GP7  ────────────────► COMMON ──► GND<br>
 
 Todos os botões utilizam pull-up interno. Ao serem pressionados, o pino é levado a GND.
 
