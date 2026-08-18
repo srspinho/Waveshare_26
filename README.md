@@ -45,27 +45,27 @@ Este documento descreve todas as conexões elétricas extraídas do código-font
 
 Definido em `menu.h`:
 
-| Botão       | GPIO    | Configuração no código     |<br>
-|-------------|---------|----------------------------|<br>
-| **UP**      | **GP3** | `INPUT_PULLUP`             |<br>
-| **DOWN**    | **GP2** | `INPUT_PULLUP`             |<br>
-| **LEFT**    | **GP6** | `INPUT_PULLUP`             |<br>
-| **RIGHT**   | **GP5** | `INPUT_PULLUP`             |<br>
-| **OK**      | **GP4** | `INPUT_PULLUP`             |<br>
-| **COMMON**  | **GP7** | Ligado ao **GND**          |<br>
+| Botão       | GPIO    | Configuração no código     |
+|-------------|---------|----------------------------|
+| **UP**      | **GP3** | `INPUT_PULLUP`             |
+| **DOWN**    | **GP2** | `INPUT_PULLUP`             |
+| **LEFT**    | **GP6** | `INPUT_PULLUP`             |
+| **RIGHT**   | **GP5** | `INPUT_PULLUP`             |
+| **OK**      | **GP4** | `INPUT_PULLUP`             |
+| **COMMON**  | **GP7** | Ligado ao **GND**          |
 
 ### Diagrama de ligação do Joystick
 
 ### Ligação do Joystick
 
-| GPIO RP2350 | Sinal do Joystick | Observação                  |
-|-------------|-------------------|-----------------------------|
-| **GP3**     | UP                | `INPUT_PULLUP`              |
-| **GP2**     | DOWN              | `INPUT_PULLUP`              |
-| **GP6**     | LEFT              | `INPUT_PULLUP`              |
-| **GP5**     | RIGHT             | `INPUT_PULLUP`              |
-| **GP4**     | OK (centro)       | `INPUT_PULLUP`              |
-| **GP7**     | COMMON            | Ligado diretamente ao GND   |
+| GPIO RP2350 | Sinal do Joystick | Observação                  |<br>
+|-------------|-------------------|-----------------------------|<br>
+| **GP3**     | UP                | `INPUT_PULLUP`              |<br>
+| **GP2**     | DOWN              | `INPUT_PULLUP`              |<br>
+| **GP6**     | LEFT              | `INPUT_PULLUP`              |<br>
+| **GP5**     | RIGHT             | `INPUT_PULLUP`              |<br>
+| **GP4**     | OK (centro)       | `INPUT_PULLUP`              |<br>
+| **GP7**     | COMMON            | Ligado diretamente ao GND   |<br>
 
 Todos os botões utilizam pull-up interno. Ao serem pressionados, o pino é levado a GND.
 
