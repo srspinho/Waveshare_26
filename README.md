@@ -136,6 +136,11 @@ O código possui proteção cooperativa (`g_flash_pausar_usb` / `g_flash_usb_par
   <img src="https://github.com/srspinho/Waveshare_26/blob/main/BCO.119462a6-2878-4ca1-a075-e63473203d3b.png" width="400">
   </p>
 
+<p Align="center">
+  <img src="https://github.com/srspinho/Waveshare_26/blob/main/BCO.32de3882-1623-4530-bb01-02336e455691.png" width="400">
+  </p>
+  
+
 ## Observações Importantes
 
 1. **Conflito de pinos evitado**  
