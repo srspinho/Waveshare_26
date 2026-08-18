@@ -58,8 +58,6 @@ Definido em `menu.h`:
 
 ### Ligação do Joystick
 
-### Ligação do Joystick
-
 | GPIO RP2350 | Sinal do Joystick | Observação                  |
 |-------------|-------------------|-----------------------------|
 | **GP3**     | UP                | `INPUT_PULLUP`              |
