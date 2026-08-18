@@ -58,14 +58,14 @@ Definido em `menu.h`:
 
 ### Ligação do Joystick
 
-| GPIO RP2350 | Sinal do Joystick | Observação                  |<br>
-|-------------|-------------------|-----------------------------|<br>
-| **GP3**     | UP                | `INPUT_PULLUP`              |<br>
-| **GP2**     | DOWN              | `INPUT_PULLUP`              |<br>
-| **GP6**     | LEFT              | `INPUT_PULLUP`              |<br>
-| **GP5**     | RIGHT             | `INPUT_PULLUP`              |<br>
-| **GP4**     | OK (centro)       | `INPUT_PULLUP`              |<br>
-| **GP7**     | COMMON            | Ligado diretamente ao GND   |<br>
+| GPIO RP2350 | Sinal do Joystick    | Observação                 |
+|-------------|----------------------|----------------------------|
+| **GP3**     | UP                   | `INPUT_PULLUP`             |
+| **GP2**     | DOWN                 | `INPUT_PULLUP`             |
+| **GP6**     | LEFT                 | `INPUT_PULLUP`             |
+| **GP5**     | RIGHT                | `INPUT_PULLUP`             |
+| **GP4**     | OK (centro)          | `INPUT_PULLUP`             |
+| **GP7**     | COMMON               | Ligado diretamente ao GND  |
 
 Todos os botões utilizam pull-up interno. Ao serem pressionados, o pino é levado a GND.
 
