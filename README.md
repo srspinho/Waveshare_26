@@ -132,8 +132,9 @@ O código possui proteção cooperativa (`g_flash_pausar_usb` / `g_flash_usb_par
 |                          | GP20 RST           | Reset             |
 |                          | GP21 BL (PWM)      | Backlight         |
 
-
----
+  <p Align="center">
+  <img src="https://github.com/srspinho/Waveshare_26/blob/main/BCO.119462a6-2878-4ca1-a075-e63473203d3b.png" width="400">
+  </p>
 
 ## Observações Importantes
 
